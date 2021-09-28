@@ -4,13 +4,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AlertComponent } from './common/components/alert/alert.component';
-import { DashboardComponent } from './dashboard/dashboard/dashboard.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { ScheckheftComponent } from './scheckheft/scheckheft.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AlertComponent,
-    DashboardComponent
+    DashboardComponent,
+    ScheckheftComponent
   ],
   imports: [
     BrowserModule,

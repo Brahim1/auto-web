@@ -1,3 +1,4 @@
 export enum AppRoutes {
-  DASHBOARD ='/dasboard'
+  DASHBOARD = '/dasboard',
+  SCHECKHEFT = '/scheckheft'
 }
