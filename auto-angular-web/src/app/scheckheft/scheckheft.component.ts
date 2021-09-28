@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-scheckheft',
   templateUrl: './scheckheft.component.html',
-  styleUrls: ['./scheckheft.component.sass']
+  styleUrls: ['./scheckheft.component.scss']
 })
 export class ScheckheftComponent implements OnInit {
   username: string | undefined;
