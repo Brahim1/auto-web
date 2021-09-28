@@ -1,1 +1,6 @@
 <p>scheckheft works!</p>
+
+<input [(ngModel)]="username">
+
+<p>Hello {{username}}!</p>
+<a [routerLink]="['/scheckheft', username]">Zum Scheckheft</a>

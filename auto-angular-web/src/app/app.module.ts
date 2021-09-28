@@ -6,17 +6,21 @@ import { AppComponent } from './app.component';
 import { AlertComponent } from './common/components/alert/alert.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ScheckheftComponent } from './scheckheft/scheckheft.component';
+import { NotFoundComponent } from './common/not-found/not-found.component';
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
     AppComponent,
     AlertComponent,
     DashboardComponent,
-    ScheckheftComponent
+    ScheckheftComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent],

@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./scheckheft.component.sass']
 })
 export class ScheckheftComponent implements OnInit {
+  username: string | undefined;
 
   constructor() { }
 
