@@ -1,6 +1,9 @@
 {
   "name": "auto-angular-web",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "files": [
+    "dist/"
+  ],
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -18,6 +21,7 @@
     "@angular/platform-browser": "~12.2.0",
     "@angular/platform-browser-dynamic": "~12.2.0",
     "@angular/router": "~12.2.0",
+    "auto-ui-kit": "file:../../auto-ui-kit/auto-ui-kit/auto-ui-kit-0.0.3.tgz",
     "rxjs": "~6.6.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
