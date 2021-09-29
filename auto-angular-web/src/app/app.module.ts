@@ -9,7 +9,6 @@ import { ScheckheftSucheComponent } from './scheckheft/scheckheft-suche/scheckhe
 import { NotFoundComponent } from './common/components/not-found/not-found.component';
 import {FormsModule} from "@angular/forms";
 import { FaqComponent } from './common/components/faq/faq.component';
-import { WuerfelComponent } from './common/components/beispiel/wuerfel/wuerfel.component';
 
 @NgModule({
   declarations: [
@@ -18,8 +17,7 @@ import { WuerfelComponent } from './common/components/beispiel/wuerfel/wuerfel.c
     DashboardComponent,
     ScheckheftSucheComponent,
     NotFoundComponent,
-    FaqComponent,
-    WuerfelComponent
+    FaqComponent
   ],
   imports: [
     BrowserModule,
