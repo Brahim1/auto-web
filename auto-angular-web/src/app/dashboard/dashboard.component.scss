@@ -1,11 +1,24 @@
-h1 {
-  display: block;
-  font-size: 2em;
-  margin-block-start: 0.67em;
-  margin-block-end: 0.67em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0;
-  font-weight: bold;
+.header, .auswahl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  margin: 3rem 0;
+  font-size: 60px;
+}
+
+.link {
+  border: 1px solid black;
+  padding: 3rem;
+  margin: 1rem;
+  box-shadow: 10px 5px 5px black;
+  background-color: burlywood;
+}
+
+.link:hover {
+  background-color: beige;
 }
 
 

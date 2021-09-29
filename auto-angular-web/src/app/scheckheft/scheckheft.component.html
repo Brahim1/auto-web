@@ -1,6 +1,22 @@
-<p>scheckheft works!</p>
+<div>
+  <div class="header">
+    Finde dein Scheckheft
+  </div>
+  <div class="auswahl">
+    <div class="suche-inout">
+      <input [(ngModel)]="username">
+    </div>
+  </div>
+  <div class="auswahl">
+    <div class="suche-button">
+      <div class="auto-button" [routerLink]="['/scheckheft', username]">Suchen</div>
+      <div class="auto-button" [routerLink]="['/']">Zurück zur Startseite</div>
+    </div>
+  </div>
+</div>
 
-<input [(ngModel)]="username">
 
-<p>Hello {{username}}!</p>
-<a [routerLink]="['/scheckheft', username]">Zum Scheckheft</a>
+
+
+
+
