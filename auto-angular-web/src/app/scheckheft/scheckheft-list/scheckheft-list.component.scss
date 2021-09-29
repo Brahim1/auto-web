@@ -19,35 +19,48 @@
   font-size: 60px;
 }
 
-.scheckheft {
+.scheckhefte {
   flex: 0 0 0px;
   display: flex;
   flex-direction: column;
 }
 
-.eintrag-header{
+.scheckheft {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: burlywood;
+  height: 100px;
   margin: 5px;
-}
-.eintrag{
-  flex: 1 0 0px;
-  background-color: white;
+  padding: 5px;
   border: 1px solid black;
-  border-radius: 4px;
-  padding: 18px;
-  margin: 5px;
+  box-shadow: 10px 5px 5px black;
 }
 
-.eintrag p {
+.scheckheft-nr {
+  font-size: 32px;
   background-color: transparent;
 }
 
-.auswahl{
-  flex: 1 0 0px;
-  align-self: center;
+.scheckheft-hersteller {
+  font-size: 24px;
+  background-color: transparent;
 }
 
-.auto-button:hover{
+.scheckheft-vim {
+  font-size: 16px;
+  background-color: transparent;
+}
+.scheckheft:hover, .auto-button:hover{
   background-color: beige;
+}
+
+.auswahl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 12px;
+  padding-bottom: 20rem;
 }
 
 .auto-button {
@@ -60,5 +73,7 @@
   box-shadow: 10px 5px 5px black;
   max-width: 160px;
 }
+
+
 
 

@@ -1,16 +1,18 @@
-<div>
-  <div class="header">
-    Willkomen auf der Auto-App
-  </div>
-  <div class="auswahl">
-    <div class="link">
-      Scheckhefte
+<div class="page-container">
+  <div class="container">
+    <div class="header">
+      Willkomen auf der Auto-App
     </div>
-    <div class="link" [routerLink]="['/scheckheft']">
-      Suche
-    </div>
-    <div class="link">
-      FAQ
+    <div class="auswahl">
+      <div class="link" [routerLink]="['/scheckheft/liste']">
+        Scheckhefte
+      </div>
+      <div class="link" [routerLink]="['/scheckheft/suche']">
+        Suche
+      </div>
+      <div class="link" [routerLink]="['/faq']">
+        FAQ
+      </div>
     </div>
   </div>
 </div>

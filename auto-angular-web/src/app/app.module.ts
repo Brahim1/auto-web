@@ -5,17 +5,21 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AlertComponent } from './common/components/alert/alert.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { ScheckheftComponent } from './scheckheft/scheckheft.component';
-import { NotFoundComponent } from './common/not-found/not-found.component';
+import { ScheckheftSucheComponent } from './scheckheft/scheckheft-suche/scheckheft-suche.component';
+import { NotFoundComponent } from './common/components/not-found/not-found.component';
 import {FormsModule} from "@angular/forms";
+import { FaqComponent } from './common/components/faq/faq.component';
+import { WuerfelComponent } from './common/components/beispiel/wuerfel/wuerfel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AlertComponent,
     DashboardComponent,
-    ScheckheftComponent,
-    NotFoundComponent
+    ScheckheftSucheComponent,
+    NotFoundComponent,
+    FaqComponent,
+    WuerfelComponent
   ],
   imports: [
     BrowserModule,

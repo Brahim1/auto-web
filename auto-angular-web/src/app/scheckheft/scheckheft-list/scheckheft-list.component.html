@@ -1,0 +1,19 @@
+<div class="page-container">
+  <div class="container">
+    <div class="header">
+      Scheckhefte
+    </div>
+    <div class="scheckhefte">
+      <div *ngFor="let person of people; let i = index">
+        <div class="scheckheft" [routerLink]="['/scheckheft', person.vim]">
+          <div class="scheckheft-nr">Scheckheft Nr. {{ i + 1 }}</div>
+          <div class="scheckheft-hersteller">Hersteller -  {{ person.hersteller }}</div>
+          <div class="scheckheft-vim">Vim. -  {{ person.vim }}</div>
+        </div>
+      </div>
+    </div>
+    <div class="auswahl">
+      <div class="auto-button" [routerLink]="['/']">Zurück zur Startseite</div>
+    </div>
+  </div>
+</div>

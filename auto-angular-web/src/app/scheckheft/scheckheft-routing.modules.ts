@@ -1,13 +1,22 @@
 import {NgModule} from "@angular/core";
 import {RouterModule, Routes} from "@angular/router";
 import {AppRoutes} from "../common/models/app-router-link.enum";
-import {ScheckheftComponent} from "./scheckheft.component";
+import {ScheckheftSucheComponent} from "./scheckheft-suche/scheckheft-suche.component";
 import {ScheckheftBuchComponent} from "./scheckheft-buch/scheckheft-buch.component";
+import {ScheckheftListComponent} from "./scheckheft-list/scheckheft-list.component";
 
 export const scheckheftRoutes: Routes = [
   {
     path: '',
-    component: ScheckheftComponent,
+    component: ScheckheftSucheComponent,
+  },
+  {
+    path: 'suche',
+    component: ScheckheftSucheComponent,
+  },
+  {
+    path: 'liste',
+    component: ScheckheftListComponent
   },
   {
     path: ':id',

@@ -1,7 +1,19 @@
-.header, .auswahl {
+.page-container {
   display: flex;
-  align-items: center;
   justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  flex: 0 0 80%;
+}
+
+.header, .auswahl {
+  flex: 0 0 0px;
+  align-self: center;
 }
 
 .header {
@@ -9,24 +21,32 @@
   font-size: 60px;
 }
 
-.auswahl input{
-  width: 600px;
-}
-
 .auswahl {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   margin: 12px;
+
+  flex: 0 0 0px;
+  width: 100%;
 }
 
-input {
+.suche-inout input{
   width: 100%;
-  height: 30px;
+  max-width: 1200px;
+  height: 40px;
   background-color: beige;
   border: 1px solid black;
   border-radius: 4px;
 }
 
+.suche-button {
+  display: flex;
+  flex: 0 0 0px;
+  justify-content: center;
+  margin: 8px;
+}
 .auto-button {
-  display: inline-block;
   margin: 3px 10px;
   padding: 18px;
   border: 1px solid black;
