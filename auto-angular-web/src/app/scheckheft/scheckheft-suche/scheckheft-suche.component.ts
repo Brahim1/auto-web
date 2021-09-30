@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./scheckheft-suche.component.scss']
 })
 export class ScheckheftSucheComponent implements OnInit {
-  username: string = '  Gib hier deine VIM ein';
+  username: string | undefined;
 
   constructor() { }
 

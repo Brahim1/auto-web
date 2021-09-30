@@ -5,7 +5,7 @@
     </div>
     <div class="auswahl">
       <div class="suche-inout">
-        <input [(ngModel)]="username">
+        <input type="text" placeholder="Gib hier deine Vim ein" [(ngModel)]="username">
       </div>
       <div class="suche-button">
         <div class="auto-button" [routerLink]="['/scheckheft', username]">Suchen</div>
