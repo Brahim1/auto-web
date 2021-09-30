@@ -1,7 +1,21 @@
+.page-container {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  flex: 0 0 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .header, .faq {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  flex: 0 0 0px;
 }
 
 .header {
@@ -16,6 +30,7 @@
 }
 
 .faq-box {
+  flex: 0 0 0px;
   padding: 3rem 12px;
   margin: 10px;
   background-color: beige !important;
